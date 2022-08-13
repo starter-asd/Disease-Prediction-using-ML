@@ -1,0 +1,107 @@
+body{
+        height: 110vh;
+        font-family: 'Montserrat', sans-serif;
+        background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50% );
+    }
+.navbar{
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 10px;
+    padding: 10px 21px;
+    border-radius: 7px;
+    border: 2px solid #080505;
+    font-size: 18px;
+    background: #0f0a0a;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+.btn:hover{
+    background: #f7f6f6;
+    color: #0a0606;
+}
+.form-group{
+    padding: 10px;
+}
+.form-text{
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px; */
+    /* float: left; */
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    height: 100vh;
+}
+.img{
+    width: 140%;
+    margin-left: 0;
+    float: left;
+    height: 80vh;
+    flex-grow: 2;
+    border-radius: 8px;
+}
+.proj{
+    margin: 140px;
+    margin-top: 25px;
+    width: 120%;
+    margin-right: 0;
+    flex-grow: 1;
+    float: left;
+}
+
+#footer {
+    background-color: #e3f2fd;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2% 15%;
+    height: 15vh;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+.fb {
+    margin: 12px 10px;
+}
+.fb1:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.fb2:hover {
+    color: #4267B2;
+    cursor: pointer;
+}
+.fb3:hover {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+.fb4:hover {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fb5:hover {
+    cursor: pointer;
+    color: #211F1F;
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.w-100 {
+    width: 100%!important;
+    height: 75vh;
+}
+.navbar{
+    text-align: center;
+}
+.testimonials {
+    text-align: center;
+    background-color: #def3f3;
+    color: rgb(0, 0, 0);
+}
+.image {
+    width: 60%;
+    margin: 20px;
+}
+h2 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    margin-top: 20px;
+    font-size: 2.8rem;
+}
+
+#footer {
+    background-color: #e3f2fd;
+    text-align: center;
+    /* position: stick; */
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2% 15%;
+    height: 15vh;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.fb {
+    margin: 12px 10px;
+}
+.fb1:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.fb2:hover {
+    color: #4267B2;
+    cursor: pointer;
+}
+.fb3:hover {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+.fb4:hover {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fb5:hover {
+    cursor: pointer;
+    color: #211F1F;
+}
